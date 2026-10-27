@@ -1,0 +1,784 @@
+{
+ "game": "FORTNITE COMMAND CENTRE",
+ "subtitle": "Chapter 6 Season 3 - Galactic Battle",
+ "sources": {
+  "reference": [
+   "polygon.com/fortnite-guide",
+   "arcader.org (Fortnite Chapter 6)"
+  ],
+  "videos": "Real YouTube guide videos, harvested with yt-dlp on gpu-server (Oct 2026). Video titles, authors and links are the original creators'."
+ },
+ "entities": [
+  {
+   "name": "Chapter 6 Season 3",
+   "kind": "Season",
+   "description": "The current season - 'Galactic Battle'. Star Wars theme with lightsabers, blasters and new POIs.",
+   "tips": [
+    "New POIs: Vader Samurai's Solitude, First Order Base, Resistance Base, Outpost Enclave.",
+    "Vader Samurai's Solitude replaces Shogun's Solitude.",
+    "First Order Base replaces Demon's Dojo; Resistance Base replaces Whiffy Wharf.",
+    "Lightsabers are melee weapons that also grant movement bonuses.",
+    "Captain Phasma's F-11D Blaster comes from defeating Captain Phasma at First Order Base."
+   ],
+   "location": "The Island",
+   "difficulty": "Medium",
+   "videos": [
+    "LUX6nye6z-A",
+    "Q-aqvm2CmZg",
+    "VhbzwJUZwsk"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "chapter 6 season 3",
+    "chapter 6",
+    "season 3",
+    "galactic battle",
+    "current season",
+    "what's new",
+    "star wars season"
+   ]
+  },
+  {
+   "name": "POIs",
+   "kind": "Map",
+   "description": "Named locations on the island where loot spawns. Each POI has a loot level and a risk.",
+   "tips": [
+    "Land at a low-tier POI early to gear up, then rotate to a high-tier POI.",
+    "POIs with a named NPC usually have a vault - clear the NPC to open it.",
+    "Storm eye shrinks; rotate early rather than waiting for the final circle.",
+    "Check for the secret vault door - it is on the wall behind a framed picture.",
+    "High-traffic POIs like those in the city centre mean more players, not more loot."
+   ],
+   "location": "The Island",
+   "difficulty": "Medium",
+   "videos": [
+    "oY64zkrf8zE",
+    "i6WjKx9R0uk",
+    "s-OqeycNUbA"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "poi",
+    "pois",
+    "point of interest",
+    "where to land",
+    "map locations",
+    "landmarks",
+    "drop locations"
+   ]
+  },
+  {
+   "name": "Lightsabers",
+   "kind": "Weapon",
+   "description": "Melee weapons added in Season 3. They boost movement while equipped.",
+   "tips": [
+    "Equipping a lightsaber lets you sprint faster and jump twice as high.",
+    "You are immune to fall damage while a lightsaber is out.",
+    "A Sith Lightsaber lets you throw the saber with a Force move - it arcs and returns.",
+    "You get the Sith Lightsaber by defeating Darth Vader Samurai.",
+    "Saber throw cooldown means you cannot spam it - throw once per engagement."
+   ],
+   "location": "Vader Samurai's Solitude / loot",
+   "difficulty": "Medium",
+   "videos": [
+    "xiICz5kkmyw",
+    "WE8JmqQKbco",
+    "eP7T0HhiO8Q"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "lightsaber",
+    "lightsabers",
+    "sith lightsaber",
+    "saber",
+    "force powers"
+   ]
+  },
+  {
+   "name": "Blasters",
+   "kind": "Weapon",
+   "description": "The Star Wars weapon family added in Season 3 - pistol, SMG, shotguns, rifles, marksman rifles and a heavy blaster.",
+   "tips": [
+    "DL-44 Blaster Pistol - close range sidearm.",
+    "CR-2 Blaster - heavy SMG, good for suppressing.",
+    "ACP Scatter Blaster and BARM-ST12 Scatter Blaster - shotguns.",
+    "DLT-19 - close to medium range blaster rifle.",
+    "IQA-11 Marksman - long range; A280-CFE is the all-purpose rifle."
+   ],
+   "location": "Loot pool",
+   "difficulty": "Low",
+   "videos": [
+    "PPvImg8h-y8",
+    "Kgc7Y-O7xJ0",
+    "AHfuZjP_VcA"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "blaster",
+    "blasters",
+    "star wars weapons",
+    "dl-44",
+    "cr-2",
+    "light blaster"
+   ]
+  },
+  {
+   "name": "Proximity Warning System",
+   "kind": "Mechanic",
+   "description": "A high-tech sensor that warns you when an enemy is nearby.",
+   "tips": [
+    "It warns you of enemies inside a short radius.",
+    "The warning makes YOU visible on the map - it is not a free information advantage.",
+    "It does NOT show the exact enemy position, only that one is close.",
+    "Disable or ignore it when you are about to fight - the warning gives away your spot.",
+    "Very useful in the endgame when you are hiding in a box or a bush."
+   ],
+   "location": "HUD - always on",
+   "difficulty": "Low",
+   "videos": [
+    "0LLX0SY-H2o",
+    "MQqmG4s9PWk",
+    "ostEaTFBfas"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "proximity",
+    "proximity warning system",
+    "pws",
+    "proximity warning",
+    "enemy nearby warning"
+   ]
+  },
+  {
+   "name": "Building",
+   "kind": "Mechanic",
+   "description": "Fortnite's signature build mechanic - walls, ramps, floors and edits.",
+   "tips": [
+    "Build in a spiral - floor, wall, ramp - not wall after wall.",
+    "Editing a wall opens a window you can peek and shoot through.",
+    "Edit on release for a quick window; hold and confirm for a full wall piece.",
+    "Never stop moving while building - a stationary builder dies.",
+    "On console, use the edit button and hold for the pie wheel.",
+    "Wood builds fastest, brick is tougher, metal is nearly indestructible but slow."
+   ],
+   "location": "Everywhere",
+   "difficulty": "Medium",
+   "videos": [
+    "BJ6_w4tGZPk",
+    "GCUvxJ1WXec",
+    "cLu0kUHPLkw"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "building",
+    "build",
+    "editing",
+    "builds",
+    "ramp",
+    "wall",
+    "fortnite building"
+   ]
+  },
+  {
+   "name": "Tanking",
+   "kind": "Mechanic",
+   "description": "Holding ground with your team instead of running away. Winning the fight by outlasting and out-positioning the enemy.",
+   "tips": [
+    "Do not peek out of cover - wait for the enemy to come to you.",
+    "Use the storm edge: fight where the storm will push the enemy into you.",
+    "Keep a crossfire: two players on different angles means the enemy has to expose themselves.",
+    "Hold high ground but keep a rotation path so you are not trapped.",
+    "Save your explosives for the final fight - use them to break the enemy structure."
+   ],
+   "location": "Anywhere",
+   "difficulty": "Medium",
+   "videos": [
+    "cDOI_ECE9t0",
+    "tBNPmyFiBEA",
+    "eppdIiuiyH8"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "tanking",
+    "team fight",
+    "holding ground",
+    "fight",
+    "winning fights",
+    "combat"
+   ]
+  },
+  {
+   "name": "Looting",
+   "kind": "Mechanic",
+   "description": "Finding weapons, ammo, shields and materials efficiently.",
+   "tips": [
+    "Chest spawns give better loot than floor loot - rotate chest to chest.",
+    "Ammo type matters - check the ammo count before taking a gun.",
+    "Shield potions are more valuable than a medkit early - 50 shield beats 50 HP.",
+    "Gold is smelted into bars; it is not craftable into weapons.",
+    "A vault usually holds a mythic or above - the sound tells you someone else is there."
+   ],
+   "location": "POIs, chests, vaults",
+   "difficulty": "Low",
+   "videos": [
+    "rA2zwU0IwHI",
+    "3ukWUDM4Krs",
+    "T4qh0WkFgic"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "looting",
+    "loot",
+    "chests",
+    "where to find loot",
+    "vault",
+    "materials"
+   ]
+  }
+ ],
+ "tips": [
+  {
+   "topic": "Chapter 6 Season 3",
+   "detail": "1. New POIs: Vader Samurai's Solitude, First Order Base, Resistance Base, Outpost Enclave.",
+   "step": 1
+  },
+  {
+   "topic": "Chapter 6 Season 3",
+   "detail": "2. Vader Samurai's Solitude replaces Shogun's Solitude.",
+   "step": 2
+  },
+  {
+   "topic": "Chapter 6 Season 3",
+   "detail": "3. First Order Base replaces Demon's Dojo; Resistance Base replaces Whiffy Wharf.",
+   "step": 3
+  },
+  {
+   "topic": "Chapter 6 Season 3",
+   "detail": "4. Lightsabers are melee weapons that also grant movement bonuses.",
+   "step": 4
+  },
+  {
+   "topic": "Chapter 6 Season 3",
+   "detail": "5. Captain Phasma's F-11D Blaster comes from defeating Captain Phasma at First Order Base.",
+   "step": 5
+  },
+  {
+   "topic": "POIs",
+   "detail": "1. Land at a low-tier POI early to gear up, then rotate to a high-tier POI.",
+   "step": 1
+  },
+  {
+   "topic": "POIs",
+   "detail": "2. POIs with a named NPC usually have a vault - clear the NPC to open it.",
+   "step": 2
+  },
+  {
+   "topic": "POIs",
+   "detail": "3. Storm eye shrinks; rotate early rather than waiting for the final circle.",
+   "step": 3
+  },
+  {
+   "topic": "POIs",
+   "detail": "4. Check for the secret vault door - it is on the wall behind a framed picture.",
+   "step": 4
+  },
+  {
+   "topic": "POIs",
+   "detail": "5. High-traffic POIs like those in the city centre mean more players, not more loot.",
+   "step": 5
+  },
+  {
+   "topic": "Lightsabers",
+   "detail": "1. Equipping a lightsaber lets you sprint faster and jump twice as high.",
+   "step": 1
+  },
+  {
+   "topic": "Lightsabers",
+   "detail": "2. You are immune to fall damage while a lightsaber is out.",
+   "step": 2
+  },
+  {
+   "topic": "Lightsabers",
+   "detail": "3. A Sith Lightsaber lets you throw the saber with a Force move - it arcs and returns.",
+   "step": 3
+  },
+  {
+   "topic": "Lightsabers",
+   "detail": "4. You get the Sith Lightsaber by defeating Darth Vader Samurai.",
+   "step": 4
+  },
+  {
+   "topic": "Lightsabers",
+   "detail": "5. Saber throw cooldown means you cannot spam it - throw once per engagement.",
+   "step": 5
+  },
+  {
+   "topic": "Blasters",
+   "detail": "1. DL-44 Blaster Pistol - close range sidearm.",
+   "step": 1
+  },
+  {
+   "topic": "Blasters",
+   "detail": "2. CR-2 Blaster - heavy SMG, good for suppressing.",
+   "step": 2
+  },
+  {
+   "topic": "Blasters",
+   "detail": "3. ACP Scatter Blaster and BARM-ST12 Scatter Blaster - shotguns.",
+   "step": 3
+  },
+  {
+   "topic": "Blasters",
+   "detail": "4. DLT-19 - close to medium range blaster rifle.",
+   "step": 4
+  },
+  {
+   "topic": "Blasters",
+   "detail": "5. IQA-11 Marksman - long range; A280-CFE is the all-purpose rifle.",
+   "step": 5
+  },
+  {
+   "topic": "Proximity Warning System",
+   "detail": "1. It warns you of enemies inside a short radius.",
+   "step": 1
+  },
+  {
+   "topic": "Proximity Warning System",
+   "detail": "2. The warning makes YOU visible on the map - it is not a free information advantage.",
+   "step": 2
+  },
+  {
+   "topic": "Proximity Warning System",
+   "detail": "3. It does NOT show the exact enemy position, only that one is close.",
+   "step": 3
+  },
+  {
+   "topic": "Proximity Warning System",
+   "detail": "4. Disable or ignore it when you are about to fight - the warning gives away your spot.",
+   "step": 4
+  },
+  {
+   "topic": "Proximity Warning System",
+   "detail": "5. Very useful in the endgame when you are hiding in a box or a bush.",
+   "step": 5
+  },
+  {
+   "topic": "Building",
+   "detail": "1. Build in a spiral - floor, wall, ramp - not wall after wall.",
+   "step": 1
+  },
+  {
+   "topic": "Building",
+   "detail": "2. Editing a wall opens a window you can peek and shoot through.",
+   "step": 2
+  },
+  {
+   "topic": "Building",
+   "detail": "3. Edit on release for a quick window; hold and confirm for a full wall piece.",
+   "step": 3
+  },
+  {
+   "topic": "Building",
+   "detail": "4. Never stop moving while building - a stationary builder dies.",
+   "step": 4
+  },
+  {
+   "topic": "Building",
+   "detail": "5. On console, use the edit button and hold for the pie wheel.",
+   "step": 5
+  },
+  {
+   "topic": "Building",
+   "detail": "6. Wood builds fastest, brick is tougher, metal is nearly indestructible but slow.",
+   "step": 6
+  },
+  {
+   "topic": "Tanking",
+   "detail": "1. Do not peek out of cover - wait for the enemy to come to you.",
+   "step": 1
+  },
+  {
+   "topic": "Tanking",
+   "detail": "2. Use the storm edge: fight where the storm will push the enemy into you.",
+   "step": 2
+  },
+  {
+   "topic": "Tanking",
+   "detail": "3. Keep a crossfire: two players on different angles means the enemy has to expose themselves.",
+   "step": 3
+  },
+  {
+   "topic": "Tanking",
+   "detail": "4. Hold high ground but keep a rotation path so you are not trapped.",
+   "step": 4
+  },
+  {
+   "topic": "Tanking",
+   "detail": "5. Save your explosives for the final fight - use them to break the enemy structure.",
+   "step": 5
+  },
+  {
+   "topic": "Looting",
+   "detail": "1. Chest spawns give better loot than floor loot - rotate chest to chest.",
+   "step": 1
+  },
+  {
+   "topic": "Looting",
+   "detail": "2. Ammo type matters - check the ammo count before taking a gun.",
+   "step": 2
+  },
+  {
+   "topic": "Looting",
+   "detail": "3. Shield potions are more valuable than a medkit early - 50 shield beats 50 HP.",
+   "step": 3
+  },
+  {
+   "topic": "Looting",
+   "detail": "4. Gold is smelted into bars; it is not craftable into weapons.",
+   "step": 4
+  },
+  {
+   "topic": "Looting",
+   "detail": "5. A vault usually holds a mythic or above - the sound tells you someone else is there.",
+   "step": 5
+  }
+ ],
+ "videos": [
+  {
+   "id": "LUX6nye6z-A",
+   "title": "All Boss Fights, Mythic, Exotic & Special Weapons - Fortnite Chapter 6 Season 3",
+   "author": "Perfect Score",
+   "url": "https://www.youtube.com/watch?v=LUX6nye6z-A",
+   "scope": "Chapter 6 Season 3 guide",
+   "tags": [
+    "fortnite",
+    "season"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Chapter 6 Season 3"
+  },
+  {
+   "id": "Q-aqvm2CmZg",
+   "title": "Fortnite All Bosses, Medallions & Mythic Weapons Locations Guide - Chapter 6 Season 3",
+   "author": "EveryDay FN",
+   "url": "https://www.youtube.com/watch?v=Q-aqvm2CmZg",
+   "scope": "Chapter 6 Season 3 guide",
+   "tags": [
+    "fortnite",
+    "season"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Chapter 6 Season 3"
+  },
+  {
+   "id": "VhbzwJUZwsk",
+   "title": "The *BEST* Landing Spots in Fortnite! (Season 3)",
+   "author": "TG Plays",
+   "url": "https://www.youtube.com/watch?v=VhbzwJUZwsk",
+   "scope": "Chapter 6 Season 3 guide",
+   "tags": [
+    "fortnite",
+    "season"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Chapter 6 Season 3"
+  },
+  {
+   "id": "oY64zkrf8zE",
+   "title": "Ranking Every New POI In Fortnite Chapter 3! (All New Locations)",
+   "author": "Top10Fortnite",
+   "url": "https://www.youtube.com/watch?v=oY64zkrf8zE",
+   "scope": "POIs guide",
+   "tags": [
+    "fortnite",
+    "map"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "POIs"
+  },
+  {
+   "id": "i6WjKx9R0uk",
+   "title": "Every Fortnite Chapter 1+2 POI on Chapter 3's Map",
+   "author": "Gummyoshi",
+   "url": "https://www.youtube.com/watch?v=i6WjKx9R0uk",
+   "scope": "POIs guide",
+   "tags": [
+    "fortnite",
+    "map"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "POIs"
+  },
+  {
+   "id": "s-OqeycNUbA",
+   "title": "Fortnite *SEASON 3* Is Here! (New Map, Mythics, Sprites)",
+   "author": "TG Plays",
+   "url": "https://www.youtube.com/watch?v=s-OqeycNUbA",
+   "scope": "POIs guide",
+   "tags": [
+    "fortnite",
+    "map"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "POIs"
+  },
+  {
+   "id": "xiICz5kkmyw",
+   "title": "HOW TO WIN EVERY LIGHTSABER BATTLE IN FORTNITE! LIGHTSABER TIPS AND TRICKS!",
+   "author": "Arbuckle",
+   "url": "https://www.youtube.com/watch?v=xiICz5kkmyw",
+   "scope": "Lightsabers guide",
+   "tags": [
+    "fortnite",
+    "weapon"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Lightsabers"
+  },
+  {
+   "id": "WE8JmqQKbco",
+   "title": "LEGO Fortnite Star Wars is HERE! (Mega Update)",
+   "author": "Kaz",
+   "url": "https://www.youtube.com/watch?v=WE8JmqQKbco",
+   "scope": "Lightsabers guide",
+   "tags": [
+    "fortnite",
+    "weapon"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Lightsabers"
+  },
+  {
+   "id": "eP7T0HhiO8Q",
+   "title": "Fortnite Lego | How to UNLOCK The Lightsaber and CRAFT a Legendary one!",
+   "author": "LaWorm ",
+   "url": "https://www.youtube.com/watch?v=eP7T0HhiO8Q",
+   "scope": "Lightsabers guide",
+   "tags": [
+    "fortnite",
+    "weapon"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Lightsabers"
+  },
+  {
+   "id": "PPvImg8h-y8",
+   "title": "Ranking EVERY STAR WARS ITEM In FORTNITE HISTORY From WORST To BEST",
+   "author": "TyluhFryz ",
+   "url": "https://www.youtube.com/watch?v=PPvImg8h-y8",
+   "scope": "Blasters guide",
+   "tags": [
+    "fortnite",
+    "weapon"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Blasters"
+  },
+  {
+   "id": "Kgc7Y-O7xJ0",
+   "title": "NEW Updated Weapons Guide on LEGO Fortnite Odyssey! (BEST Tools)",
+   "author": "Crafty | LEGO Fortnite",
+   "url": "https://www.youtube.com/watch?v=Kgc7Y-O7xJ0",
+   "scope": "Blasters guide",
+   "tags": [
+    "fortnite",
+    "weapon"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Blasters"
+  },
+  {
+   "id": "AHfuZjP_VcA",
+   "title": "Everything You Need To Know To Master Star Wars Zero Company Combat",
+   "author": "Gamers Heroes",
+   "url": "https://www.youtube.com/watch?v=AHfuZjP_VcA",
+   "scope": "Blasters guide",
+   "tags": [
+    "fortnite",
+    "weapon"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Blasters"
+  },
+  {
+   "id": "0LLX0SY-H2o",
+   "title": "How To Turn On Voice Chat in Fortnite (2026)",
+   "author": "Chad Reddings",
+   "url": "https://www.youtube.com/watch?v=0LLX0SY-H2o",
+   "scope": "Proximity Warning System guide",
+   "tags": [
+    "fortnite",
+    "mechanic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Proximity Warning System"
+  },
+  {
+   "id": "MQqmG4s9PWk",
+   "title": "How to Fix Fortnite Voice Chat Disabled Due to Parental Controls",
+   "author": "Chad Reddings",
+   "url": "https://www.youtube.com/watch?v=MQqmG4s9PWk",
+   "scope": "Proximity Warning System guide",
+   "tags": [
+    "fortnite",
+    "mechanic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Proximity Warning System"
+  },
+  {
+   "id": "ostEaTFBfas",
+   "title": "6 Different Ways YOU Can Use Proximity Alarms || Rainbow Six Siege Tips",
+   "author": "Rufus",
+   "url": "https://www.youtube.com/watch?v=ostEaTFBfas",
+   "scope": "Proximity Warning System guide",
+   "tags": [
+    "fortnite",
+    "mechanic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Proximity Warning System"
+  },
+  {
+   "id": "BJ6_w4tGZPk",
+   "title": "How To FREE BUILD Like a PRO on Controller (Fortnite Building Tutorial)",
+   "author": "Real Fax",
+   "url": "https://www.youtube.com/watch?v=BJ6_w4tGZPk",
+   "scope": "Building guide",
+   "tags": [
+    "fortnite",
+    "mechanic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Building"
+  },
+  {
+   "id": "GCUvxJ1WXec",
+   "title": "How to Build in Fortnite ~ Beginner to PRO Guide",
+   "author": "JivanTV",
+   "url": "https://www.youtube.com/watch?v=GCUvxJ1WXec",
+   "scope": "Building guide",
+   "tags": [
+    "fortnite",
+    "mechanic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Building"
+  },
+  {
+   "id": "cLu0kUHPLkw",
+   "title": "How to FREE BUILD Like a PRO (Easy Fortnite Building Tutorial)",
+   "author": "Real Fax",
+   "url": "https://www.youtube.com/watch?v=cLu0kUHPLkw",
+   "scope": "Building guide",
+   "tags": [
+    "fortnite",
+    "mechanic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Building"
+  },
+  {
+   "id": "cDOI_ECE9t0",
+   "title": "Destroy Structures with a Tank in Zero Build - Fortnite Covert Ops Quests",
+   "author": "Perfect Score",
+   "url": "https://www.youtube.com/watch?v=cDOI_ECE9t0",
+   "scope": "Tanking guide",
+   "tags": [
+    "fortnite",
+    "mechanic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Tanking"
+  },
+  {
+   "id": "tBNPmyFiBEA",
+   "title": "Fortnite Pro’s Strangest Strategy: The Storm Meta",
+   "author": "Reisshub",
+   "url": "https://www.youtube.com/watch?v=tBNPmyFiBEA",
+   "scope": "Tanking guide",
+   "tags": [
+    "fortnite",
+    "mechanic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Tanking"
+  },
+  {
+   "id": "eppdIiuiyH8",
+   "title": "Fortnite Pros Took The Storm Meta Too Far",
+   "author": "Reisshub",
+   "url": "https://www.youtube.com/watch?v=eppdIiuiyH8",
+   "scope": "Tanking guide",
+   "tags": [
+    "fortnite",
+    "mechanic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Tanking"
+  },
+  {
+   "id": "rA2zwU0IwHI",
+   "title": "(FORTNITE) Daily Bulge Massive Looting Guide",
+   "author": "Ryuwolves",
+   "url": "https://www.youtube.com/watch?v=rA2zwU0IwHI",
+   "scope": "Looting guide",
+   "tags": [
+    "fortnite",
+    "mechanic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Looting"
+  },
+  {
+   "id": "3ukWUDM4Krs",
+   "title": "10 CHEST LOCATIONS TO GET FAST LOOT! (Fortnite Battle Royale)",
+   "author": "Rifle Gaming",
+   "url": "https://www.youtube.com/watch?v=3ukWUDM4Krs",
+   "scope": "Looting guide",
+   "tags": [
+    "fortnite",
+    "mechanic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Looting"
+  },
+  {
+   "id": "T4qh0WkFgic",
+   "title": "The *BEST* Landing Spots in Fortnite! (Season 4)",
+   "author": "TG Plays",
+   "url": "https://www.youtube.com/watch?v=T4qh0WkFgic",
+   "scope": "Looting guide",
+   "tags": [
+    "fortnite",
+    "mechanic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Looting"
+  }
+ ]
+}

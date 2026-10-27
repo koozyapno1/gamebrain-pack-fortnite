@@ -1,0 +1,181 @@
+{
+ "id": "fortnite",
+ "name": "FORTNITE COMMAND CENTRE",
+ "subtitle": "Chapter 6 Season 3 - Galactic Battle",
+ "version": "1.0.0",
+ "kb": "kb.json",
+ "ui": {
+  "brand_title": "FORTNITE COMMAND CENTRE",
+  "brand_subtitle": "Chapter 6 Season 3 - Galactic Battle",
+  "grid_title": "POI Grid",
+  "grid_question": "What is at {sector}?",
+  "cols": 8,
+  "rows": 9
+ },
+ "quick_prompts": [
+  "What is new in Chapter 6 Season 3?",
+  "Where should I land for the best loot?",
+  "How do I use a lightsaber?",
+  "What is the Proximity Warning System?",
+  "How do I win a team fight?"
+ ],
+ "known_facts": [
+  "Chapter 6 Season 3 is titled 'Galactic Battle' and has a Star Wars theme.",
+  "Lightsabers let you sprint faster, take no fall damage and jump twice as high.",
+  "The Proximity Warning System warns you when an enemy is close, but it makes YOU visible too.",
+  "Chapter 6 Season 1 made all weapons hitscan - there is no bullet drop.",
+  "New POIs in Season 3: Vader Samurai's Solitude, First Order Base, Resistance Base, Outpost Enclave."
+ ],
+ "entity_words": [
+  "fortnite",
+  "poi",
+  "lightsaber",
+  "blaster",
+  "proximity",
+  "building",
+  "loot",
+  "vault",
+  "season",
+  "chapter",
+  "storm",
+  "reboot",
+  "elimination",
+  "battle bus",
+  "crystal",
+  "bushranger",
+  "character",
+  "skin",
+  "emote"
+ ],
+ "system_prompt": "You are the Fortnite Chapter 6 Season 3 battle royale assistant.\n\nRules:\n- ALWAYS use a tool before answering. Never guess a POI, weapon or mechanic.\n- Quote the 'tips' field as ordered steps.\n- If a video is returned, ALWAYS include it as a markdown link [Title](url). Never invent a link.\n- Be honest about what you do not know rather than inventing a POI or a loot pool.",
+ "tools": [
+  {
+   "name": "fortnite_guide",
+   "description": "Look up a Fortnite topic (Chapter 6 Season 3, POIs, lightsabers, blasters, Proximity Warning System, building, tanking, looting). Returns what it is and step-by-step tips. ALWAYS use this instead of guessing.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "topic": {
+      "type": "string",
+      "description": "Topic name, e.g. 'lightsabers'"
+     }
+    }
+   },
+   "match_words": [
+    "fortnite",
+    "poi",
+    "lightsaber",
+    "blaster",
+    "building",
+    "looting"
+   ],
+   "query": {
+    "mode": "record",
+    "collection": "entities",
+    "match": "name",
+    "params": [
+     "topic"
+    ],
+    "include": [
+     "name",
+     "kind",
+     "description",
+     "tips",
+     "location",
+     "difficulty"
+    ]
+   }
+  },
+  {
+   "name": "fortnite_tips",
+   "description": "Get practical step-by-step Fortnite tips for a topic. Returns ordered steps you should give as a numbered list.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "topic": {
+      "type": "string",
+      "description": "Topic"
+     }
+    }
+   },
+   "match_words": [
+    "tips",
+    "advice",
+    "best way",
+    "how do i"
+   ],
+   "query": {
+    "mode": "search",
+    "collection": "tips",
+    "params": [
+     "topic"
+    ],
+    "fields": [
+     "topic",
+     "detail"
+    ],
+    "limit": 6
+   }
+  },
+  {
+   "name": "fortnite_videos",
+   "description": "Get YouTube guide videos for a Fortnite topic (POI guide, lightsabers, blasters, building, looting, proximity system). ALWAYS include a video link from the 'videos' field in your answer.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "topic": {
+      "type": "string",
+      "description": "Topic"
+     }
+    }
+   },
+   "match_words": [
+    "video",
+    "watch",
+    "youtube",
+    "show me"
+   ],
+   "query": {
+    "mode": "videos",
+    "params": [
+     "topic"
+    ],
+    "videos_collection": "videos",
+    "entities_collection": "entities",
+    "match": "name",
+    "video_entity_field": "entity"
+   }
+  }
+ ],
+ "ref_tabs": [
+  {
+   "id": "entities",
+   "label": "Topics",
+   "kind": "list",
+   "collection": "entities",
+   "fields": [
+    "name",
+    "kind",
+    "description",
+    "location",
+    "difficulty"
+   ]
+  },
+  {
+   "id": "tips",
+   "label": "Tips",
+   "kind": "list",
+   "collection": "tips",
+   "fields": [
+    "topic",
+    "detail"
+   ]
+  },
+  {
+   "id": "videos",
+   "label": "Videos",
+   "kind": "videos",
+   "collection": "videos"
+  }
+ ]
+}
